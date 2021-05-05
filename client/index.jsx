@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import LOGO from '../images/images.jpg';
+import DataChat from './Components/DataChat.jsx';
 
 const Index = () => {
   return (
-    <div className="container">
-      <div>TIW 8 TP1!</div>
-      <img src={LOGO} alt="Logo" />
-    </div>
+    <DataChat />
+   
   );
 };
 
